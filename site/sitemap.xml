@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://droppii.github.io/qa-tms/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/guidelines/naming/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/guidelines/test-case-numbering/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/guidelines/writing/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/shared-steps/navigation/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/test-cases/functional/login/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/test-cases/gift/view-list/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://droppii.github.io/qa-tms/test-suites/gift-pdp/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+</urlset>
