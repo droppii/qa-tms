@@ -52,14 +52,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Test Cases:
-    - Overview: test-cases/index.md
-    - Functional: test-cases/functional/index.md
-    - API: test-cases/api/index.md
-    - Performance: test-cases/performance/index.md
-  - Test Suites:
-    - Overview: test-suites/index.md
-  - Shared Steps:
-    - Overview: shared-steps/index.md
+    - Functional:
+      - Login: test-cases/functional/login.md
   - Guidelines:
-    - Test Case Writing: guidelines/test-case-writing.md
-    - Naming Conventions: guidelines/naming-conventions.md
+    - Writing Test Cases: guidelines/writing.md
+    - Naming Conventions: guidelines/naming.md
