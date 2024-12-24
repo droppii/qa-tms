@@ -8,9 +8,10 @@ description: Common steps to navigate to the Gift list page
 ```
 
 ### Steps
-1. Click on Promotion/Gift link in the navigation menu
-2. System redirects to Gift list page
-3. Verify Gift list page is displayed
+| Step | Action | Expected Result |
+|------|--------|----------------|
+| 1 | Click on Promotion/Gift link in the navigation menu | System redirects to Gift list page |
+| 2 | Wait for page load | Gift list page is displayed |
 
 ## Navigate to Create Gift
 ```yaml
@@ -23,4 +24,4 @@ description: Common steps to navigate to Create Gift form
 | Step | Action | Expected Result |
 |------|--------|----------------|
 | 1 | Click "Create Gift" button | Create Gift form is displayed |
-| 2 | Verify form is loaded | All required fields are visible |
+| 2 | Wait for form load | All required fields are visible |

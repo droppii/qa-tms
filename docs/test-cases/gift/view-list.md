@@ -19,7 +19,7 @@ Verify that users can successfully navigate to the Gift list page from Promotion
 - User has permission to view gifts
 
 ### Test Steps
-!include ../shared-steps/navigation.md#Navigate-to-Gift-List
+{{ ../shared-steps/navigation.md }}
 
 ### Expected Results
 - Gift list page is displayed
@@ -98,3 +98,42 @@ Verify that the search functionality correctly filters gifts by ID
 - Search should be case-insensitive
 - Partial gift ID matches should be supported
 - Search should execute after 500ms of user stopping typing
+
+---
+
+## [GIFT-LIST-FUN-001] View Gift List
+---
+```yaml
+title: View Gift List
+id: GIFT-LIST-FUN-001
+component: Gift Management
+priority: High
+status: Active
+tags:
+  - gift
+  - navigation
+last_updated: 2024-12-24
+```
+
+### Test Objective
+Verify that users can successfully navigate to the Gift list page from Promotion/Gift link
+
+### Prerequisites
+- User is logged in
+- User has permission to view gifts
+
+### Test Steps
+
+| Step | Action | Expected Result |
+|------|--------|----------------|
+| 1 | Click on Promotion/Gift link in the navigation menu | System redirects to Gift list page |
+| 2 | Wait for page load | Gift list page is displayed |
+
+### Expected Results
+- Gift list page is displayed
+- URL changes to /gifts
+- Gift list title is visible
+
+### Notes
+- This test case is part of the basic navigation test suite
+- Should be included in smoke tests

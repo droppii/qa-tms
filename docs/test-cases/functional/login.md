@@ -1,6 +1,6 @@
 ---
 title: Login Functionality
-id: TC-001
+id: AUTH-LOG-FUN-001
 component: Authentication
 priority: High
 status: Active
@@ -12,7 +12,7 @@ last_updated: 2024-12-24
 
 # Login Functionality Test Cases
 
-## TC-001: Standard User Login
+## AUTH-LOG-FUN-001: Standard User Login
 
 ### Test Objective
 Verify that a user can successfully log in with valid credentials
@@ -40,7 +40,7 @@ Verify that a user can successfully log in with valid credentials
 - Test on supported browsers: Chrome, Firefox, Safari
 - Check "Remember me" functionality in separate test case
 
-## TC-002: Invalid Login Attempt
+## AUTH-LOG-FUN-002: Invalid Login Attempt
 
 === "Test Steps"
     | Step | Action | Expected Result | Test Data |
