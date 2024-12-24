@@ -52,8 +52,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Test Cases:
-    - Functional:
+    - Authentication:
       - Login: test-cases/functional/login.md
+    - Gift Management:
+      - View List: test-cases/gift/view-list.md
+  - Test Suites:
+    - Gift PDP: test-suites/gift-pdp.md
+  - Shared Steps:
+    - Navigation: shared-steps/navigation.md
   - Guidelines:
     - Writing Test Cases: guidelines/writing.md
     - Naming Conventions: guidelines/naming.md
