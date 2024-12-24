@@ -1,4 +1,8 @@
 site_name: QA Test Management System
+site_url: https://droppii.github.io/qa-tms/
+repo_url: https://github.com/droppii/qa-tms
+repo_name: droppii/qa-tms
+
 theme:
   name: material
   features:
